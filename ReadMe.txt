@@ -10,4 +10,4 @@ Known facts/issues :
 5. In case of internet failure or any error , a seperate transluscent view can be poped up which is more gracious
 6. Image view url download should have been modularised seperately
 7. Works for the latest version of iOS only. Backward compatibility not considered yet.
-8. simulator screenshot added in seperate folder
+8. simulator screenshot added as seperate file
