@@ -2,6 +2,8 @@ Hello !
 
 This is a basic Weather App where you can see weather at your current location or any other city in USA
 
+Weather API Credits : https://openweathermap.org/api/
+
 Known facts/issues : 
 1. The code can be further modularised with respect to the Views making more into a MVVM pattern.
 2. Works for all orientations and size classes. 
