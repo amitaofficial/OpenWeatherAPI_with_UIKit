@@ -88,7 +88,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,UISearchBarDele
         }
         let escapedCityString = cname.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) // to account for spaces in the URL
 
-
+        // API Key is hard coded here for now so that testing can be done . Will remove in couple of days. Ideally it needs to be added in a config file and secure it.
         let urlString : String = "https://api.openweathermap.org/data/2.5/weather?q=\(escapedCityString!)&appid=2b0059d4fc9986d49453b0ff88754421&units=imperial"
         
         print(urlString) // debug statement
