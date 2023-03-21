@@ -14,3 +14,4 @@ Known facts/issues :
 7. Works for the latest version of iOS only. Backward compatibility not considered yet.
 8. simulator screenshot added as seperate file
 9. Apple provide CLGeoCoder to do forward and reverse geocoding. So i have used that rather than the openWeather GeoCoding API, to reduce unnecessary API     calls
+10. P.S : Api key used is removed in ViewController.swift since this code base is public now.
